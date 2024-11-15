@@ -426,7 +426,7 @@ extension RawSpan {
 @available(SwiftStdlib 6.1, *)
 extension RawSpan {
 
-  //FIXME: mark closure parameter as non-escaping
+  // FIXME: mark closure parameter as non-escaping
   /// Calls the given closure with a pointer to the underlying bytes of
   /// the viewed contiguous storage.
   ///
